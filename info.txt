@@ -2,4 +2,5 @@ Tony Nguyen
 1.) populateListView will fill the ListView with either string resources via the useStringResource
 method or with data arrays via the useDataArray method.
 
-2.)
+2.) simple_list_view_1 doesn't crash unlike simple_list_view_2; simple 1 has one textview while
+simple 2 has two

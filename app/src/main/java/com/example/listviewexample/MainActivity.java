@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         listView = findViewById(R.id.pets_LV);
 
 
-        int selection = 2;
+        int selection = 1;
         populateListView(selection);
     }
 
@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
         values.add(new Pet("Kenny", "Husky", 15));
         values.add(new Pet("Kenny", "Husky", 15));
         values.add(new Pet("Kenny", "Husky", 15));
-        ArrayAdapter<Pet> adapter =  new ArrayAdapter<>(this, android.R.layout.simple_list_item_2, values);
+        ArrayAdapter<Pet> adapter =  new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, values);
         listView.setAdapter(adapter);
     }
 }
