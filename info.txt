@@ -1,0 +1,5 @@
+Tony Nguyen
+1.) populateListView will fill the ListView with either string resources via the useStringResource
+method or with data arrays via the useDataArray method.
+
+2.)
